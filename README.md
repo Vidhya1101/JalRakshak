@@ -6,6 +6,12 @@ JalRakshak is an AI-powered Smart City prototype designed to help identify locat
 
 Instead of responding only after waterlogging occurs, JalRakshak combines **historical incidents, current weather conditions, upcoming rainfall forecasts, drainage vulnerability, waste hotspots, and terrain factors** to estimate location-level flood risk and prioritize preventive action.
 
+## 🚀 Live Prototype
+
+**Try JalRakshak:** https://jalrakshak.ai.studio/
+
+The live prototype is hosted through Google AI Studio and can be opened directly in a web browser.
+
 ## 🚨 Problem
 
 Jammu experiences waterlogging and drainage-related problems during heavy rainfall. Blocked drains, waste accumulation, drainage limitations and vulnerable locations can increase the impact of rainfall.
@@ -80,9 +86,9 @@ Where official datasets are unavailable, the prototype uses clearly labelled dem
 - Leaflet
 - OpenStreetMap
 - Recharts
-- Weather API
-- JavaScript
-- Python/FastAPI (planned/optional backend)
+- Open-Meteo weather API
+- TypeScript / JavaScript
+- Google AI Studio
 - Machine Learning (future enhancement)
 
 ## 🤖 Future AI/ML Enhancement
