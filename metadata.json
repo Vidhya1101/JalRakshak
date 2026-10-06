@@ -2,5 +2,7 @@
   "name": "JALRAKSHAK - Predictive Urban Flood Prevention for Jammu",
   "description": "Predictive Urban Flood Prevention for Jammu. Smart City municipal decision-support system prioritizing preventive action before rainfall causes waterlogging.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

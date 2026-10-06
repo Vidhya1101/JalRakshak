@@ -6,6 +6,7 @@
 import React from 'react';
 import { ActivePage, LocationData } from '../types';
 import { ArrowRight, FileText } from 'lucide-react';
+import jammuMonsoonImg from '../assets/images/jammu_monsoon_city_1791306754782.jpg';
 
 interface LandingPageProps {
   onNavigate: (page: ActivePage) => void;
@@ -76,7 +77,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onNavigate, locations 
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900 group">
               <img
-                src="/src/assets/images/jammu_monsoon_city_1791306754782.jpg"
+                src={jammuMonsoonImg}
                 alt="Jammu urban basin with Tawi river under monsoon skies"
                 className="w-full h-84 object-cover object-center opacity-90 transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
